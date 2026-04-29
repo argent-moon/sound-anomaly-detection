@@ -1,5 +1,4 @@
-# Sound-Based Anomaly Detection in Industrial Machines
-### Reducing Cross-Machine Domain Shift via Preprocessing-Only Feature Engineering
+# Sound-Based Anomaly Detection in Industrial Machines: Reducing Cross-Machine Domain Shift via Preprocessing-Only Feature Engineering
  
 ## Overview
  
