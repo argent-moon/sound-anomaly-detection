@@ -1,8 +1,6 @@
 # Sound-Based Anomaly Detection in Industrial Machines
 ### Reducing Cross-Machine Domain Shift via Preprocessing-Only Feature Engineering
  
----
- 
 ## Overview
  
 Industrial machines of the same type sound different even when healthy — each physical unit has its own acoustic signature due to bearing tolerances, material properties, and assembly differences. This is the **cross-machine domain shift problem**: a model trained on machines id_00 and id_02 fails on id_04 not because id_04 is broken, but because it simply sounds different.
@@ -12,7 +10,6 @@ This project investigates whether two interpretable, lightweight preprocessing m
 **Two preprocessing modifications:**
 - **Modification 1 — Per-machine-ID normalisation:** Subtracts each machine's mean MFCC vector from all its clips, removing acoustic identity and leaving only deviations from normal behaviour.
 - **Modification 2 — Variance-weighted MFCC selection:** Downweights MFCC coefficients that encode machine identity (high between-machine variance) rather than fault state (high within-machine variance).
----
 
 ## Key Results
 
