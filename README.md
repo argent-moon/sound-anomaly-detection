@@ -40,6 +40,10 @@ machines), averaged over 10 random seeds each, using **mean+std aggregation (26-
 |  0 dB     | +0.271 |
 | −6 dB     | +0.189 |
 
+![Baseline vs Modified](figures/figure_baseline_vs_modified_by_condition.png)
+
+![Scatter](figures/phase5_scatter.png)
+
 The modifications show the largest gains at high SNR (+6 dB) for pump machines, where domain
 shift was most severe. The baseline was actively inverted for several pump configurations
 (AUC < 0.3), meaning the model was ranking normal sounds as more anomalous than faulty ones.
@@ -50,9 +54,7 @@ shift was most severe. The baseline was actively inverted for several pump confi
 |-|----------|----------|-------|
 | AUC-ROC | 0.197 ± 0.031 | 0.962 ± 0.006 | **+0.765** |
 
-![Baseline vs Modified](figures/figure_baseline_vs_modified_by_condition.png)
-
-![Scatter](figures/phase5_scatter.png)
+![Pump id_04 +6 dB SNR](figures/figure_roc_pump_6db_id04.png)
 
 ### Calibration Sensitivity
 
